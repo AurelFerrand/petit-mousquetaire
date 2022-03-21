@@ -2,3 +2,61 @@
     border-radius: 10px;
     background: linear-gradient(110deg, #2c2c2c 60%, #d83504 60%);
 }
+
+.nav-icon, span.mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        height: 10vh;
+        padding: 0 1% 0 1%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s ease-out;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .nav-home {
+        display: none;
+    }
+
+    .menu li {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 4.5vh;
+        color: var(--third);
+    }
+
+    .nav-icon, span.mobile {
+        color: white;
+        display: inline
+    }
+
+    span.active, span.active:hover, li span:hover {
+        border-style: none;
+    }
+
+    .nav-text {
+        font-size: 0.8rem;
+    }
+
+
+
+
+
+
+}
