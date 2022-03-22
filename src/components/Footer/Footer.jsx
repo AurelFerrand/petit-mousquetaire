@@ -7,7 +7,7 @@ const dates = yearActual.getFullYear();
 const Footer = () => {
   return (
     <div>
-      <div classname="main_class"></div>
+      <div className="main_class"></div>
       <footer className="footer">
         <p>
           © <span className="footer-year">{dates}</span> - Site crée par

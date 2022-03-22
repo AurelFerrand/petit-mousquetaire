@@ -4,7 +4,7 @@ import "./Acceuil.css";
 const Acceuil = () => {
   return (
     <div className="acceuil-container">
-      <h1>Bienvenue sur Petit.Mousquetaire</h1>
+      <h1 className="acceuil-title">Bienvenue sur Petit.Mousquetaire</h1>
       <div className="img-paragraphe">
         <img
           className="acceuil-image"
