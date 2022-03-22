@@ -1,0 +1,27 @@
+.acceuil-image {
+    margin-top: 25px;
+    border-radius: 10%;
+    opacity: 0.9;
+    box-shadow: 0 0 15px rgba(87, 79, 79, 0.726);
+    width: 50%;
+    height: 50%;
+}
+
+.img-paragraphe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphe {
+    margin: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .acceuil-image {
+        width: 80%;
+        height: 80%;
+    }
+}

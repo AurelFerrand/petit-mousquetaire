@@ -36,13 +36,13 @@ const NavBar = () => {
         <Link to="/information">
           <li>
             <BsInfoCircle className="nav-icon" />
-            <span className="nav-text">information</span>
+            <span className="nav-text">Informations</span>
           </li>
         </Link>
         <Link to="/contact">
           <li>
             <AiOutlinePhone className="nav-icon" />
-            <span className="nav-text">contact</span>
+            <span className="nav-text">Contact</span>
           </li>
         </Link>
       </ul>
