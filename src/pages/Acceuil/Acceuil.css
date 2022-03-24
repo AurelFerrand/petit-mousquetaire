@@ -1,8 +1,7 @@
 .acceuil-image {
-    margin: 10vw 40px 10vw 40px;
+    margin: 5vw 40px 5vw 40px;
     border-radius: 10%;
-
-    box-shadow: 0 0 15px rgba(87, 79, 79, 0.726);
+    box-shadow: 8px 8px 10px 0 rgba(88, 88, 88, 0.26);
     width: 50%;
 
 }
@@ -22,7 +21,12 @@
     padding: 15px;
 }
 
-
+.paragraphe-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .acceuil-title {
     margin-top: 25px;

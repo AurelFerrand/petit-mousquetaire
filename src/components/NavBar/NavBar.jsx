@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsShop } from "react-icons/bs";
 import { AiOutlineHome, AiOutlinePhone } from "react-icons/ai";
 import { RiAccountPinCircleLine } from "react-icons/ri";
 import { FcStatistics } from "react-icons/fc";
