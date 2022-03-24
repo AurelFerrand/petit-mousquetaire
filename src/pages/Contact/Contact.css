@@ -9,7 +9,20 @@ form {
     position: relative;
     z-index: 1;
     height: 417px;
-    width: 60%
+    width: 50%
+}
+
+form *:required {
+    background-repeat: no-repeat;
+    background-position: center right 12px;
+    background-size: 15px 15px;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+}
+
+form .required-msg {
+    color: rgba(255, 255, 255, 0.774);
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg) no-repeat center left / 15px 15px;
+    padding-left: 20px;
 }
 
 form>div {
@@ -36,9 +49,10 @@ form>textarea {
     border: 1px solid #ccc;
     color: #ddd;
     background-color: #222;
+    border-color: #d83504;
     border-radius: 4px;
     display: block;
-    width: 60%;
+    width: 50%;
 }
 
 form>textarea {
@@ -58,9 +72,19 @@ form>input[type="submit"]:hover {
     background-color: #555;
 }
 
+.good {
+    border-color: #12a304;
+}
+
 @media screen and (max-width: 900px) {
     form>div>.icon-contact {
 
         font-size: 11vw;
+    }
+
+
+    form>input,
+    form>textarea {
+        width: 80%;
     }
 }
