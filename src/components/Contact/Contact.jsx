@@ -1,15 +1,13 @@
 import React from "react";
 import "./Contact.css";
+import { GiEnvelope } from "react-icons/gi";
 
 const Contact = () => {
   return (
     <>
       <form>
         <div>
-          <img
-            src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/mail-letter-offer-256.png"
-            alt="icon"
-          />
+          <GiEnvelope className="icon-contact" />
         </div>
         <input type="text" placeholder="Nom Prénom (Obligatoire)" required />
         <input type="email" placeholder="Email (Obligatoire)" required />
