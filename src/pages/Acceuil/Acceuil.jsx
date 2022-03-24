@@ -20,6 +20,20 @@ const Acceuil = () => {
           Villeneuve-Les-Béziers.{" "}
         </p>
       </div>
+      <section class="triangle"></section>
+      <div className="img-paragraphe-second">
+        <p className="paragraphe">
+          Petit.Mousquetaire a pour but de rassembler, les idées et les
+          informations , qui parfois ne sont pas simples a obtenir aux sein d'un
+          grand entrepôt, le site est en travail constant il évoluera au fil du
+          temps.{" "}
+        </p>
+        <img
+          className="acceuil-image"
+          src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="entrepot"
+        />
+      </div>
     </div>
   );
 };
