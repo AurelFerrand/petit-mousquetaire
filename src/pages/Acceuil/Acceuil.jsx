@@ -22,7 +22,7 @@ const Acceuil = () => {
           </p>
         </div>
       </div>
-      <section class="triangle"></section>
+      <section className="triangle"></section>
       <div className="img-paragraphe-second">
         <p className="paragraphe">
           le site est en travail constant il évoluera au fil du temps.{" "}
